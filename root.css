@@ -26,7 +26,8 @@
   --text-color-2: #BFBFBF;
 }
 
-*, html {
+*,
+html {
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
@@ -85,9 +86,11 @@
   border-radius: var(--border-radius);
   align-items: center;
 }
+
 .button-primary:hover {
   background: var(--hover);
 }
+
 .button-primary:focus {
   background: var(--pressed);
 }
@@ -100,7 +103,8 @@
   background: var(--loading);
   cursor: not-allowed;
 }
- .button-success {
+
+.button-success {
   background: var(--disabled);
   color: var(--text-color-2);
- }
+}
